@@ -6,7 +6,6 @@ ENV BAAS_VERSION=1.1
 ADD ./requirements.txt /
 
 RUN yum clean all \
-    && yum -y update \
     && yum install -y python-setuptools \
     && easy_install pip \
     && pip install -r /requirements.txt \
