@@ -1,7 +1,7 @@
 FROM centos:7
 MAINTAINER ArthurXu <qingyu.xu@veritas.com>
 
-ENV BAAS_VERSION=1.0
+ENV BAAS_VERSION=1.1
 
 ADD ./requirements.txt /
 
