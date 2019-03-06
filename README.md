@@ -8,3 +8,7 @@
 
 # 20180929
 更新 requirements
+
+# 20190306
+修改时区配置 Asia/Shanghai
+
