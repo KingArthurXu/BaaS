@@ -11,6 +11,7 @@ RUN yum clean all \
     && yum -y update \
     && yum install -y python-setuptools \
     && yum install -y gcc \
+    && yum install -y python-devel \
     && easy_install pip \
     && pip install -r /requirements.txt \
         && yum clean all \
