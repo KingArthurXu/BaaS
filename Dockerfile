@@ -10,6 +10,7 @@ RUN yum clean all \
     && echo "Asia/Shanghai" > /etc/timezone \
     && yum -y update \
     && yum install -y python-setuptools \
+    && yum install -y gcc \
     && easy_install pip \
     && pip install -r /requirements.txt \
         && yum clean all \
