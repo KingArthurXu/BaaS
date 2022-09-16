@@ -72,7 +72,7 @@ oslo.messaging==9.5.0
 oslo.middleware==3.37.1
 oslo.serialization==2.28.2
 oslo.service==1.38.0
-oslo.utils==3.40.3
+oslo.utils==4.10.1
 paramiko==2.4.2
 passlib==1.7.1
 Paste==3.0.8
